@@ -8,6 +8,11 @@ zone "nflxvideo.net." {
     file "/data/db.override";
 };
 
+zone "nflxext.com." {
+    type master;
+    file "/data/db.override";
+};
+
 zone "hulu.com." {
     type master;
     file "/data/db.override";
