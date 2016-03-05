@@ -28,7 +28,7 @@ The following is based on a standard Ubuntu Docker image provided by `DigitalOce
 2. Create a `Droplet` using `Docker 1.x` on `Ubuntu 14.04` (find in under `One-click Apps` tab).
 3. **Make sure to enable `IPv6` support**.
 4. Make sure you create the `Droplet` in the right region, for example if you want to watch US content, create in the US.
-5. SSH to your `Droplet` and run: `git clone https://github.com/ab77/netflix-proxy /opt/netflix-proxy && cd /opt/netflix-proxy && ./build.sh`
+5. SSH to your `Droplet` and run: `git clone https://github.com/nigelarcher/netflix-proxy.git /opt/netflix-proxy && cd /opt/netflix-proxy && ./build.sh`
 6. Point your DNS at the Droplet IP and watch `Netflix`, `Hulu` and `HBO Now` out of region.
 7. Turn off IPv6 on your network (or relevant devices).[n6]
 8. Enjoy or raise a new [issue](https://github.com/ab77/netflix-proxy/issues/new) if something doesn't work quite right (also `#netflix-proxy` on [freenode](https://webchat.freenode.net/?channels=netflix-proxy)).
