@@ -3,6 +3,11 @@ zone "netflix.com." {
     file "/data/db.override";
 };
 
+zone "nflxvideo.net." {
+    type master;
+    file "/data/db.override";
+};
+
 zone "hulu.com." {
     type master;
     file "/data/db.override";
